@@ -1,0 +1,429 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+  <title>Levels of Measurement for Geneseo Data Course</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m77972</md:content-id>
+  <md:title>Levels of Measurement for Geneseo Data Course</md:title>
+  <md:abstract>This module discusses the different scales used and levels of measurement used to quantify variables. The main terms discussed are Nominal, Ordinal, Interval, and Ratio scales. This module is largely the work of David Lane, with (hopefully) minor presentation changes to make it fit smoothly in SUNY Geneseo's prototype non-specialists' introduction to data.</md:abstract>
+  <md:uuid>4da49427-f340-4d36-89f5-9a12ada7becd</md:uuid>
+</metadata>
+
+<content>
+    <section id="sec1">
+      <title>Types of Scales</title>
+      <para id="s1p1">Before we can conduct a statistical analysis, we need to
+	measure our variable(s).  Exactly how the
+	measurement is carried out depends on the type of variable
+	involved in the analysis.  Different types are measured
+	differently.  To measure the time taken to respond to a
+	stimulus, you might use a stop watch.  Stop watches are of no
+	use, of course, when it comes to measuring someone's attitude
+	towards a political candidate.  A rating scale is more
+	appropriate in this case (with labels like "very favorable",
+	"somewhat favorable" etc.).  For a variable such as
+	"favorite color", you can simply note the color-word (like
+	"red") that the subject offers.
+      </para><para id="s1p2">
+        Although procedures for measurement differ in many ways, they
+	can be classified using a few fundamental categories.  In a
+	given category, all of the procedures share some properties
+	that it is important for you to know about.  The categories
+	are called "scale types", or just "scales", and are described
+	in this section.
+      </para>
+
+      <section id="s1sub1">
+	<title>Nominal Scales</title>
+	<para id="s11p1">
+	  When measuring using a <term>nominal scale</term>, one
+	  simply names or categorizes responses. Gender, handedness,
+	  favorite color, and religion are examples of variables
+	  measured on a nominal scale.  The essential point about
+	  nominal scales is that they do not imply any ordering among
+	  the responses. For example, when classifying people
+	  according to their favorite color, there is no sense in
+	  which green is placed "ahead of" blue. Responses are merely
+	  categorized. Nominal scales embody the lowest level of
+	  measurement.
+	</para>
+      </section>
+
+      <section id="s1sub2">
+	<title>Ordinal Scales</title> <para id="s12p1">A researcher
+	wishing to measure consumers' satisfaction with their
+	microwave ovens might ask them to specify their feelings as
+	either "very dissatisfied", "somewhat dissatisfied", "somewhat
+	satisfied", or "very satisfied".  The items in this scale are
+	ordered, ranging from least to most satisfied. This is what
+	distinguishes <term>ordinal</term> from nominal scales.
+	Whereas nominal scales don't allow comparisons in the degree
+	to which two subjects possess a characteristic, just
+	this kind of comparison is possible with ordinal scales.  For
+	example, our satisfaction ordering makes it meaningful to
+	assert that one person is more satisfied than another with
+	their microwave ovens.  Such an assertion reflects the first
+	person's use of a verbal label that comes later in the list
+	than the label chosen by the second person.
+	</para><para id="s12p2">
+	  On the other hand, ordinal scales fail to capture important
+	  information that will be present in the other scales we
+	  examine.  In particular, the difference between two levels
+	  of an ordinal scale cannot be assumed to be the same as the
+	  difference between two other levels. In our satisfaction
+	  scale, for example, the difference between the responses
+	  "very dissatisfied" and "somewhat dissatisfied" cannot be
+	  compared to the difference between "somewhat dissatisfied"
+	  and "somewhat satisfied".  Nothing in our measurement
+	  procedure allows us to determine whether the two differences
+	  reflect the same difference in psychological satisfaction.
+	  Statisticians express this point by saying that the
+	  differences between adjacent scale values do not necessarily
+	  represent equal intervals on the underlying scale giving
+	  rise to the measurements.  (In our case, the underlying
+	  scale is the true feeling of satisfaction, which we are
+	  trying to measure.)
+	</para>
+	<para id="s12p3">
+	  What if the researcher had measured satisfaction by asking
+	  consumers to indicate their level of satisfaction by
+	  choosing a number from one to four?  Would the difference
+	  between the responses of one and two necessarily reflect the
+	  same difference in satisfaction as the difference between
+	  the responses two and three?  The answer is No.  Changing
+	  the response format to numbers does not change the meaning
+	  of the scale.  We still are in no position to assert that
+	  the mental step from 1 to 2 (for example) is the same as the
+	  mental step from 3 to 4.
+	</para>
+      </section>
+
+      <section id="s1sub3">
+	<title>Interval Scales</title>
+	<para id="s13p1">
+	  <term>Interval scales</term> are numerical scales in which
+	  intervals have the same interpretation throughout.  As an
+	  example, consider the Fahrenheit scale of temperature.  The
+	  difference between 30 degrees and 40 degrees represents the
+	  same temperature difference as the difference between 80
+	  degrees and 90 degrees.  This is because each 10 degree
+	  interval has the same physical meaning (in terms of the
+	  kinetic energy of molecules).
+	</para>
+	<para id="s13p2">
+	  Interval scales are not perfect, however.  In particular,
+	  they do not have a true zero point even if one of the scaled
+	  values happens to carry the name "zero".  The Fahrenheit
+	  scale illustrates the issue. Zero degrees Fahrenheit does
+	  not represent the complete absence of temperature (the
+	  absence of any molecular kinetic energy).  In reality, the
+	  label "zero" is applied to its temperature for quite
+	  accidental reasons connected to the history of temperature
+	  measurement.  Since an interval scale has no true zero
+	  point, it does not make sense to compute ratios of
+	  temperatures.  For example, there is no sense in which the
+	  ratio of 40 to 20 degrees Fahrenheit is the same as the
+	  ratio of 100 to 50 degrees; no interesting physical property
+	  is preserved across the two ratios.  After all, if the
+	  "zero" label were applied at the temperature that Fahrenheit
+	  happens to label as 10 degrees, the two ratios would instead
+	  be 30 to 10 and 90 to 40, no longer the same!  For this
+	  reason, it does not make sense to say that 80 degrees is
+	  "twice as hot" as 40 degrees.  Such a claim would depend on
+	  an arbitrary decision about where to "start" the temperature
+	  scale, namely, what temperature to call zero (whereas the
+	  claim is intended to make a more fundamental assertion about
+	  the underlying physical reality).
+	</para>
+      </section>
+
+      <section id="s1sub4">
+	<title>Ratio scales</title>
+	<para id="s14p1">
+	  The <term>ratio scale</term> of measurement is the most
+	  informative scale.  It is an interval scale with the
+	  additional property that its zero position indicates the
+	  absence of the quantity being measured.  You can think of a
+	  ratio scale as the three earlier scales rolled up in one.
+	  Like a nominal scale, it provides a name or category for
+	  each object (the numbers serve as labels).  Like an ordinal
+	  scale, the objects are ordered (in terms of the ordering of
+	  the numbers).  Like an interval scale, the same difference
+	  at two places on the scale has the same meaning.  And in
+	  addition, the same ratio at two places on the scale also
+	  carries the same meaning.
+	</para>
+	<para id="s14p2">
+	  An example of a ratio scale is the amount of money you have
+	  in your pocket right now (25 cents, 55 cents etc.).  Money
+	  is measured on a ratio scale because, in addition to having
+	  the properties of an interval scale, it has a true zero
+	  point: if you have zero money, this implies the absence of
+	  money. Since money has a true zero point, it makes sense to
+	  say that someone with 50 cents has twice as much money as
+	  someone with 25 cents (or that Bill Gates has a million
+	  times more money than you do).
+	</para>
+      </section>
+    </section>
+
+    <section id="sec2">
+      <title>What level of measurement is used for psychological
+	variables?</title>
+      <para id="s2p1">
+	Rating scales are used frequently in psychological research.
+	For example, experimental subjects may be asked to rate their
+	level of pain, how much they like a consumer product, their
+	attitudes about capital punishment, their confidence in an
+	answer to a test question.  Typically these ratings are made
+	on a 5-point or a 7-point scale.  These scales are ordinal
+	scales since there is no assurance that a given difference
+	represents the same thing across the range of the scale.  For
+	example, there is no way to be sure that a treatment that
+	reduces pain from a rated pain level of 3 to a rated pain
+	level of 2 represents the same level of relief as a treatment
+	that reduces pain from a rated pain level of 7 to a rated pain
+	level of 6.
+      </para>
+      <para id="s2p2">
+	In memory experiments, the dependent variable is often the
+	number of items correctly recalled.  What scale of measurement
+	is this?  You could reasonably argue that it is a ratio scale.
+	First, there is a true zero point; some subjects may get no
+	items correct at all.  Moreover, a difference of one
+	represents a difference of one item recalled across the entire
+	scale.  It is certainly valid to say that someone who recalled
+	12 items recalled twice as many items as someone who recalled
+	only 6 items.
+      </para>
+      <para id="s2p3">
+	But number-of-items recalled is a more complicated case than
+	it appears at first.  Consider the following example in which
+	subjects are asked to remember as many items as possible from
+	a list of 10.  Assume that 
+	<list id="list1" list-type="enumerated">
+	    <item>
+	    there are 5 easy items and 5 difficult items
+	  </item>
+	    <item>
+	    half of the subjects are able to recall all the easy items
+	    and different numbers of difficult items while
+	  </item>
+	  <item>
+	    the other half of the subjects are unable to recall any of
+	    the difficult items and remember different numbers of easy
+	    items.
+	  </item>
+	</list>  Some sample data are shown below.
+      </para>
+      <table id="data_1" frame="all" summary="">
+	<tgroup cols="12" align="left" colsep="1" rowsep="1">
+	  <colspec colnum="2" colname="c2"/>
+	  <colspec colnum="6" colname="c6"/>
+	  <colspec colnum="10" colname="c11"/>
+	  <thead valign="top">
+	    <row>
+	      <entry>Subject</entry>
+	      <entry namest="c2" nameend="c6">Easy Items</entry>
+	      <entry namest="c6" nameend="c11">Difficult Items</entry>
+	      <entry>Score</entry>
+	    </row>
+	  </thead>
+	  <tbody valign="top">
+	    <row>
+	      <entry>A</entry>
+	      <entry>0</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>2</entry>
+	    </row>
+	    <row>
+	      <entry>B</entry>
+	      <entry>1</entry>
+	      <entry>0</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>3</entry>
+	    </row>
+	    <row>
+	      <entry>C</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>0</entry>
+	      <entry>7</entry>
+	    </row>
+	    <row>
+	      <entry>D</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>0</entry>
+	      <entry>1</entry>
+	      <entry>1</entry>
+	      <entry>0</entry>
+	      <entry>1</entry>
+	      <entry>8</entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+      <para id="s2p4">
+	Let's compare 
+	<list id="list2" list-type="enumerated">
+	    <item>
+	    the difference between Subject A's score of 2 and Subject
+	    B's score of 3
+	  </item>
+	    <item>
+	    the difference between Subject
+	    C's score of 7 and Subject D's score of 8.
+	  </item>
+	</list>
+	The former difference is a difference of one easy item; the
+	latter difference is a difference of one difficult item.  Do
+	these two differences signify the same difference in memory
+	performance?  We are inclined to respond No to this question
+	since only a little more memory may be needed to retain the
+	additional easy item whereas a lot more memory may be needed
+	to retain the additional hard item.  The general point is that
+	it is often inappropriate to consider psychological
+	measurements scales as either interval or ratio.
+      </para>
+    </section>
+
+    <section id="sec3">
+      <title>Consequences of Level of Measurement</title>
+      <para id="s3p1">Why are we so interested in the type of scale that measures a
+	variable?  The crux of the matter is the
+	relationship between the variable's level of measurement and
+	the statistics that can be meaningfully computed with that
+	variable.  For example, consider a hypothetical study in which
+	5 children are asked to choose their favorite color from blue,
+	red, yellow, green, and purple.  The researcher codes the
+	results as follows:
+      </para><table id="data2" frame="all" summary="">
+	
+	<tgroup cols="2" align="left" colsep="1" rowsep="1">
+	  <thead valign="top">
+	    <row>
+	      <entry align="center">Color</entry>
+	      <entry align="center">Code</entry>
+	    </row>
+	  </thead>
+	  <tbody valign="top">
+	    <row>
+	      <entry align="left">Blue</entry>
+	      <entry align="left">1</entry>
+	    </row>
+	    <row>
+	      <entry align="left">Red</entry>
+	      <entry align="left">2</entry>
+	    </row>
+	    <row>
+	      <entry align="left">Yellow</entry>
+	      <entry align="left">3</entry>
+	    </row>
+	    <row>
+	      <entry align="left">Green</entry>
+	      <entry align="left">4</entry>
+	    </row>
+	    <row>
+	      <entry align="left">Purple</entry>
+	      <entry align="left">5</entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+      <para id="s3p2">
+	This means that if a child said her favorite color was "Red,"
+	then the choice was coded as "2," if the child said her
+	favorite color was "Purple" then the response was coded as 5,
+	and so forth.
+      </para>
+      <para id="s3p3">
+	Consider the following hypothetical data:
+      </para>
+      <table id="data3" frame="all" summary="">
+	<tgroup cols="3" align="left" colsep="1" rowsep="1">
+	  <thead valign="top">
+	    <row>
+	      <entry>Subject</entry>
+	      <entry>Color</entry>
+	      <entry>Code</entry>
+	    </row>
+	  </thead>
+	  <tbody valign="top">
+	    <row>
+	      <entry>1</entry>
+	      <entry>Blue</entry>
+	      <entry>1</entry>
+	    </row>
+	    <row>
+	      <entry>2</entry>
+	      <entry>Blue</entry>
+	      <entry>1</entry>
+	    </row>
+	    <row>
+	      <entry>3</entry>
+	      <entry>Green</entry>
+	      <entry>4</entry>
+	    </row>
+	    <row>
+	      <entry>4</entry>
+	      <entry>Purple</entry>
+	      <entry>5</entry>
+	    </row>
+	    <row>
+	      <entry>5</entry>
+	      <entry>Green</entry>
+	      <entry>4</entry>
+	    </row>
+	  </tbody>
+	</tgroup>
+      </table>
+
+      <para id="s3p4">
+        Each code is a number, so nothing prevents us from computing
+	the average code assigned to the children.  The average
+	happens to be 3, but you can see that it would be senseless to
+	conclude that the average favorite color is yellow (the color
+	with a code of 3).  Such nonsense arises because favorite
+	color is a nominal scale, and taking averages of its numerical
+	labels is like counting the number of letters in the name of a
+	snake to see how long the beast is.
+      </para>
+
+      <para id="s3p5">Does it make sense to compute the mean of numbers measured on
+	an ordinal scale?  This is a difficult question, one that
+	statisticians have debated for decades. The prevailing (but by
+	no means unanimous) opinion of statisticians is that for
+	almost all practical situations, the mean of an
+	ordinally-measured variable is a meaningful statistic.
+	However, as you may see as you work more with data, there are extreme
+	situations in which computing the mean of an
+	ordinally-measured variable can be very misleading.
+      </para></section>
+  </content>
+  
+</document>

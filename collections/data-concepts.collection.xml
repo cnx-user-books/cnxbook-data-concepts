@@ -1,0 +1,15 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col29658</md:content-id>
+    <md:title>Data Concepts</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>7dd40d56-84ed-4304-ab0b-6a31f5ec1120</md:uuid>
+<md:slug>data-concepts</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m77961"/>
+    <col:module document="m77970"/>
+    <col:module document="m77972"/>
+  </col:content>
+</col:collection>
